@@ -32,14 +32,17 @@ body {
 }
 
 .hero {
-  background-image: url("mountains.jpg");
+  background-image: 
+  linear-gradient(rgba(0,0,0,0.4),
+  rgba(0,0,0,0.4)),
+  url("mountains.jpg");
   background-size: cover;
   background-position: center;
   height: 600px;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: lightpink;
+  color: rgb(251, 226, 230);
   text-align: center;
 }
 
@@ -52,13 +55,14 @@ body {
   padding: 140px 20px;
   max-width: 900px;
   margin: 0 auto;
+  color:#333;
 }
 
 h3 {
   color:  #333;
 }
 
-.content h3 {
+.content h2 {
   font-size: 28px;
   margin-bottom: 10px;
 }
